@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class BaseServiceImpl implements BaseService {
   @Override public String getDummyString() {
     try {
-      Thread.sleep(140);
+      Thread.sleep(170);
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
